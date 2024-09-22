@@ -2,7 +2,27 @@
     margin: 0px;
     padding: 0px;
 }
-
+.header{
+    background-color: rgb(255, 173, 80);
+    margin: 15px;
+    border-radius: 10px;
+}
+.info{
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    color: rgb(34, 34, 34);
+    font-size: 30px;
+}
 h1{
-    color: red;
+    color: rgb(27, 58, 255);
+    font-size: 80px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    border: none;
+    background-color: rgb(182, 236, 57);
 }
