@@ -20,8 +20,6 @@ body{
     color: rgb(35, 33, 33);
     float: right;
     font-family: book antiqua;
-
-    
 }
 .header{
     background-color: rgb(255, 173, 80);
@@ -33,6 +31,12 @@ body{
     padding: 20px;
     color: rgb(34, 34, 34);
     font-size: 30px;
+}
+.hover:hover{
+    color: rgb(238, 127, 0);
+    font-weight: 700;
+    text-decoration: underline;
+    
 }
 h1{
     color: rgb(27, 58, 255);
