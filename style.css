@@ -38,7 +38,7 @@ body{
     text-decoration: underline;
     
 }
-h1{
+h3+h1{
     color: rgb(27, 58, 255);
     font-size: 80px;
 }
@@ -50,4 +50,36 @@ button{
     color: black;
     border: none;
     background-color: rgb(182, 236, 57);
+}
+.heading{
+    background-color: rgb(255, 173, 80);
+    float:left;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: blue;
+}
+.edu{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+
+}
+.edu caption{
+    caption-side: bottom;
+    font-size: 20px;
+    font-weight:bold;
+}
+table,tr,th,td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
