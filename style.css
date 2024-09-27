@@ -13,7 +13,6 @@ body{
     background-color: whitesmoke;
     display: flex;
 }
-
 .nav a{
     text-decoration: none;
     padding: 15px;
@@ -53,7 +52,7 @@ button{
 }
 .heading{
     background-color: rgb(255, 173, 80);
-    float:left;
+    width: 13rem;
     padding: 10px;
     margin: 5px;
     border-radius: 20px;
@@ -71,6 +70,10 @@ button{
     caption-side: bottom;
     font-size: 20px;
     font-weight:bold;
+}
+table.center{
+    margin-left: auto;
+    margin-right: auto;
 }
 table,tr,th,td{
     border: 3px solid black;
