@@ -37,6 +37,7 @@ body{
     padding: 20px;
     color: rgb(34, 34, 34);
     font-size: 30px;
+    align-items: center;
 }
 .hover:hover{
     color:rgb(238, 127, 0);
@@ -116,15 +117,4 @@ th{
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 
-}
-@media screem and(max-width:600px){
-    body{
-        .header{
-            height: auto;
-        }
-        .head_img{
-            width: 0px;
-            
-        }
-    }
 }
