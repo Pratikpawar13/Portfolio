@@ -10,20 +10,27 @@ body{
     border-radius: 10px;
     padding: 15px;
     font-size: 20px;
-    background-color: whitesmoke;
     display: flex;
+    justify-content: flex-end;
+    background-color: whitesmoke;
+    
 }
 .nav a{
     text-decoration: none;
-    padding: 15px;
+    padding: 5px 15px 5px 15px;
     color: rgb(35, 33, 33);
-    float: right;
     font-family: book antiqua;
 }
 .header{
     background-color: rgb(255, 173, 80);
     margin: 2px 15px 2px 15px;
     border-radius: 10px;
+    height: 550px;
+}
+.head_img{
+    width: 500px;
+    float: right;
+    padding: 20px 100px;
 }
 .info{
     margin: 20px 0px 20px 0px;
@@ -32,10 +39,34 @@ body{
     font-size: 30px;
 }
 .hover:hover{
-    color: rgb(238, 127, 0);
+    color:rgb(238, 127, 0);
     font-weight: 700;
-    text-decoration: underline;
+    font-size: 22px;
     
+}
+.hover{
+    display: inline-block;
+    position: relative;
+}
+.hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(238, 127, 0);
+    transition: transform 0.25s ease-out;
+}
+.hover:hover::after {
+    transform: scaleX(1);
+}
+.hover::after {
+    transform-origin: bottom right;
+}
+.hover:hover::after {
+    transform-origin: bottom left;
 }
 h3+h1{
     color: rgb(27, 58, 255);
@@ -85,4 +116,15 @@ th{
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 
+}
+@media screem and(max-width:600px){
+    body{
+        .header{
+            height: auto;
+        }
+        .head_img{
+            width: 0px;
+            
+        }
+    }
 }
