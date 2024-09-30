@@ -61,7 +61,7 @@ nav a{
     background-color: rgb(255, 173, 80);
     margin: 2px 15px 2px 15px;
     border-radius: 10px;
-    height: 550px;
+    overflow: hidden;
 }
 .head_img{
     width: 500px;
